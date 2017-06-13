@@ -32,28 +32,28 @@
 mybatis
 ```markdown
  <dependency>
-     <groupId>org.mybatis</groupId>
-     <artifactId>mybatis</artifactId>
-     <version>3.0.5</version>
-     <scope>provided</scope>
+   <groupId>org.mybatis</groupId>
+   <artifactId>mybatis</artifactId>
+   <version>3.0.5</version>
+   <scope>provided</scope>
  </dependency>
  <dependency>
-     <groupId>org.mybatis</groupId>
-     <artifactId>mybatis-spring</artifactId>
-     <version>1.0.1</version>
-     <scope>provided</scope>
+   <groupId>org.mybatis</groupId>
+   <artifactId>mybatis-spring</artifactId>
+   <version>1.0.1</version>
+   <scope>provided</scope>
  </dependency>
  <dependency>
-     <groupId>org.mybatis</groupId>
-     <artifactId>mybatis-ehcache</artifactId>
-     <version>1.0.0</version>
+   <groupId>org.mybatis</groupId>
+   <artifactId>mybatis-ehcache</artifactId>
+   <version>1.0.0</version>
  <scope>provided</scope
-     <exclusions>
-         <exclusion>
-         <groupId>net.sf.ehcache</groupId>
-         <artifactId>core</artifactId>
-         </exclusion>
-     </exclusions>
+   <exclusions>
+       <exclusion>
+       <groupId>net.sf.ehcache</groupId>
+       <artifactId>core</artifactId>
+       </exclusion>
+   </exclusions>
  </dependency>
 ```
 solr
@@ -61,10 +61,10 @@ solr
 ```markdown
 
 <dependency>
-     <groupId>org.apache.solr</groupId>
-     <artifactId>solr-solrj</artifactId>
-     <version>5.5.3</version>
-     <scope>provided</scope>
+   <groupId>org.apache.solr</groupId>
+   <artifactId>solr-solrj</artifactId>
+   <version>5.5.3</version>
+   <scope>provided</scope>
 </dependency>
 
 ```
@@ -72,10 +72,10 @@ hadoop
 ```markdown
 
 <dependency>
-     <groupId>org.apache.hadoop</groupId>
-     <artifactId>hadoop-common</artifactId>
-     <version>2.7.1</version>
-     <scope>provided</scope>
+   <groupId>org.apache.hadoop</groupId>
+   <artifactId>hadoop-common</artifactId>
+   <version>2.7.1</version>
+   <scope>provided</scope>
 </dependency>
 
 ```
