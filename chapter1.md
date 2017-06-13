@@ -1,6 +1,6 @@
 # \*.pom文件为项目父工程,具体依赖包为公用jar包
 
-**[spring](http://lib.csdn.net/base/javaee "Java EE知识库")**不同模块或者与外部进行集成时，依赖处理就需要各自对应版本号。比如，较新spring与较老的quartz，它们集成就会遇到问题，给搭建和升级带来不便。因此Spring IO Platform应运而生，只要项目中引入了它，外部集成时依赖关系无需版本号。Spring IO Platform只是一个pom文件，记录了spring与其他开源项目对应的版本。省去了版本号，也就省去了处理依赖时的问题，因为Spring IO Platform中有最优的版本配置。SpringSource为了解决这些Jar冲突，推出了各种BOM，当然最著名的就是spring platform io bom，其中最核心的三个是：spring-framework-bom、spring-boot-dependencies、platform-bom。对于Spring工程来说，直接在pom.xml文件中添加如下配置代码，即可免去管理版本冲突的难题.
+[**spring**](http://lib.csdn.net/base/javaee "Java EE知识库")不同模块或者与外部进行集成时，依赖处理就需要各自对应版本号。比如，较新spring与较老的quartz，它们集成就会遇到问题，给搭建和升级带来不便。因此Spring IO Platform应运而生，只要项目中引入了它，外部集成时依赖关系无需版本号。Spring IO Platform只是一个pom文件，记录了spring与其他开源项目对应的版本。省去了版本号，也就省去了处理依赖时的问题，因为Spring IO Platform中有最优的版本配置。SpringSource为了解决这些Jar冲突，推出了各种BOM，当然最著名的就是spring platform io bom，其中最核心的三个是：spring-framework-bom、spring-boot-dependencies、platform-bom。对于Spring工程来说，直接在pom.xml文件中添加如下配置代码，即可免去管理版本冲突的难题.
 
 ```
 <dependency> 
@@ -116,8 +116,6 @@ zookeeper
 </dependency>
 ```
 
-
-
 ```
 <dependency>
     <groupId>com.github.sgroschupf</groupId>
@@ -127,4 +125,14 @@ zookeeper
 
 <dependency>    <groupId>org.apache.curator</groupId>    <artifactId>curator-framework</artifactId>    <version>${curator_version}</version></dependency><dependency>    <groupId>redis.clients</groupId>    <artifactId>jedis</artifactId>    <version>${jedis_version}</version></dependency><dependency>    <groupId>com.googlecode.xmemcached</groupId>    <artifactId>xmemcached</artifactId>    <version>${xmemcached_version}</version></dependency><dependency>    <groupId>org.apache.cxf</groupId>    <artifactId>cxf-rt-frontend-simple</artifactId>    <version>${cxf_version}</version></dependency><dependency>    <groupId>org.apache.cxf</groupId>    <artifactId>cxf-rt-transports-http</artifactId>    <version>${cxf_version}</version></dependency>
 ```
+
+&lt;dependency&gt;
+
+ &lt;groupId&gt;org.apache.cxf&lt;\/groupId&gt;
+
+ &lt;artifactId&gt;cxf-rt-transports-http&lt;\/artifactId&gt;
+
+ &lt;version&gt;${cxf\_version}&lt;\/version&gt;
+
+ &lt;\/dependency&gt;
 
