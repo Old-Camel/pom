@@ -1,9 +1,9 @@
 # Summary
 
-* [maven  dependency arrange ](chapter1.md)
-- [pom--&gt;parent](pom--parent.md)
-- [pom--&gt;api](pom--api.md)
-- [pom--&gt;impl](pom--impl.md)
-- [pom--&gt;web](pom--web.md)
-- [pom--&gt;说明](1\说明.md)
+* [maven  dependency arrange ](pom文件依赖总结/pomchapter1.md)
+- [pom--&gt;parent](pom文件依赖总结/pom--parent.md)
+- [pom--&gt;api](pom文件依赖总结/pom--api.md)
+- [pom--&gt;impl](pom文件依赖总结/pom--impl.md)
+- [pom--&gt;web](pom文件依赖总结/pom--web.md)
+
 
