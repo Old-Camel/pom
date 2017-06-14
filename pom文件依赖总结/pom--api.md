@@ -1,5 +1,5 @@
 # \*-api.pom文件为项目javabean+interface依赖文件
-核心组件管理
+####核心组件管理
 ```markdown
 <dependency>
    <groupId>com.yunzainfo.pitcher</groupId> 
@@ -8,7 +8,7 @@
    <scope>provided</scope>
 </dependency>
 ```
-公用的javabean以及接口,例如Baseuser,Basemapper
+###公用的javabean以及接口,例如Baseuser,Basemapper
 ```markdown
 <dependency>
    <groupId>com.yunzainfo.pitcher</groupId>

@@ -1,7 +1,7 @@
 # \*-impl.web文件为项目控制层类依赖文件
 
 ```markdown
-核心组件管理
+###核心组件管理
 <dependency>
 
      <groupId>com.yunzainfo.pitcher</groupId>
@@ -22,7 +22,7 @@
 
 ```
 
-公用的javabean以及接口,例如Baseuser,Basemapper
+###公用的javabean以及接口,例如Baseuser,Basemapper
 
 ```markdown
 
@@ -40,7 +40,7 @@
 
 ```
 
-测试
+###测试
 
 ```markdown
 
@@ -57,7 +57,7 @@
 </dependency>
 ```
 
-dubbo
+###dubbo
 
 ```markdown
 
@@ -86,7 +86,7 @@ dubbo
 </dependency>
 ```
 
-spring
+###spring
 
 ```markdown
  <dependency>
@@ -168,7 +168,7 @@ spring
 
 ```
 
-aspectj
+###aspectj
 
 ```markdown
 <dependency>
@@ -185,7 +185,7 @@ aspectj
 </dependency>
 ```
 
-事务
+###事务
 
 ```markdown
 
@@ -197,7 +197,7 @@ aspectj
 </dependency>
 ```
 
-json数据转换
+###json数据转换
 
 ```markdown
 
@@ -209,7 +209,7 @@ json数据转换
 </dependency>
 ```
 
-mybatis
+###mybatis
 
 ```markdown
  <dependency>
@@ -238,7 +238,7 @@ mybatis
  </dependency>
 ```
 
-java缓存
+###java缓存
 
 ```markdown
 
@@ -255,7 +255,7 @@ java缓存
 </dependency>
 ```
 
-c3p0
+###c3p0
 
 ```markdown
 
@@ -267,7 +267,7 @@ c3p0
 </dependency>
 ```
 
-JAX-RS
+###JAX-RS
 
 ```markdown
 <dependency>
@@ -278,7 +278,7 @@ JAX-RS
 </dependency>
 ```
 
-连接池
+###连接池
 
 ```markdown
 
@@ -290,7 +290,7 @@ JAX-RS
 </dependency>
 ```
 
-oracle jdbc连接包
+###oracle jdbc连接包
 
 ```markdown
 <dependency>
@@ -301,7 +301,7 @@ oracle jdbc连接包
 </dependency>
 ```
 
-cxf
+###cxf
 
 ```markdown
 <dependency>
@@ -317,7 +317,7 @@ cxf
  <scope>provided</scope>
 </dependency>
 ```
-jsoup(解析html)
+###jsoup(解析html)
 ```markdown
 <dependency>
  <groupId>org.jsoup</groupId>
@@ -326,7 +326,7 @@ jsoup(解析html)
  <scope>provided</scope>
 </dependency>
 ```
-Sigar(收集系统信息)
+###Sigar(收集系统信息)
 ```markdown
 <dependency>
  <groupId>org.fusesource</groupId>
@@ -340,7 +340,7 @@ Sigar(收集系统信息)
  </exclusions>
 </dependency> 
 ```
-WSDL解析
+###WSDL解析
 
 ```markdown
 <dependency>
@@ -349,7 +349,7 @@ WSDL解析
   <version>1.6.2</version>
 </dependency>
 ```
-XML解析器
+###XML解析器
 ```markdown
 <dependency>
  <groupId>org.apache.ws.commons.schema</groupId>
@@ -358,7 +358,7 @@ XML解析器
 </dependency>
 
 ```
-io工具
+###io工具
 ```markdown
 <dependency>
  <groupId>commons-io</groupId>

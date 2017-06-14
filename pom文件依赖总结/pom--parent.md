@@ -1,6 +1,6 @@
 # \*.pom文件为项目父工程,具体依赖包为公用jar包
 
-[**spring**](http://lib.csdn.net/base/javaee "Java EE知识库")不同模块或者与外部进行集成时，依赖处理就需要各自对应版本号。比如，较新spring与较老的quartz，它们集成就会遇到问题，给搭建和升级带来不便。因此Spring IO Platform应运而生，只要项目中引入了它，外部集成时依赖关系无需版本号。Spring IO Platform只是一个pom文件，记录了spring与其他开源项目对应的版本。省去了版本号，也就省去了处理依赖时的问题，因为Spring IO Platform中有最优的版本配置。SpringSource为了解决这些Jar冲突，推出了各种BOM，当然最著名的就是spring platform io bom，其中最核心的三个是：spring-framework-bom、spring-boot-dependencies、platform-bom。对于Spring工程来说，直接在pom.xml文件中添加如下配置代码，即可免去管理版本冲突的难题.
+####_spring_不同模块或者与外部进行集成时，依赖处理就需要各自对应版本号。比如，较新spring与较老的quartz，它们集成就会遇到问题，给搭建和升级带来不便。因此Spring IO Platform应运而生，只要项目中引入了它，外部集成时依赖关系无需版本号。Spring IO Platform只是一个pom文件，记录了spring与其他开源项目对应的版本。省去了版本号，也就省去了处理依赖时的问题，因为Spring IO Platform中有最优的版本配置。SpringSource为了解决这些Jar冲突，推出了各种BOM，当然最著名的就是spring platform io bom，其中最核心的三个是：spring-framework-bom、spring-boot-dependencies、platform-bom。对于Spring工程来说，直接在pom.xml文件中添加如下配置代码，即可免去管理版本冲突的难题.
 
 ```markdown
 <dependency> 
@@ -12,7 +12,7 @@
 </dependency>
 ```
 
-Javassist是一款字节码编辑工具，可以直接编辑和生成Java生成的字节码，以达到对.class文件进行动态修改的效果 .
+###字节码编辑工具，可以直接编辑和生成Java生成的字节码，以达到对.class文件进行动态修改的效果 .
 
 ```markdown
 <dependency>
@@ -22,11 +22,11 @@ Javassist是一款字节码编辑工具，可以直接编辑和生成Java生成�
 </dependency>
 ```
 
-jboss的一个jar包
+###jboss的一个jar包
 
-目的：快速开发高性能、高可靠性的网络服务器和客户端程序.
+#####目的：快速开发高性能、高可靠性的网络服务器和客户端程序.
 
-优点：提供异步的、事件驱动的网络应用程序框架和工具.用来处理socket.
+#####优点：提供异步的、事件驱动的网络应用程序框架和工具.用来处理socket.
 
 ```markdown
 <dependency>
@@ -36,7 +36,7 @@ jboss的一个jar包
 </dependency>
 ```
 
-Apache Mina是一个能够帮助用户开发高性能和高伸缩性网络应用程序的框架。它通过Java nio技术基于TCP\/IP和UDP\/IP协议提供了抽象的、事件驱动的、异步的API。
+####Apache Mina是一个能够帮助用户开发高性能和高伸缩性网络应用程序的框架。它通过Java nio技术基于TCP\/IP和UDP\/IP协议提供了抽象的、事件驱动的、异步的API。
 
 ```markdown
 <dependency>
@@ -46,7 +46,7 @@ Apache Mina是一个能够帮助用户开发高性能和高伸缩性网络应用
 </dependency>
 ```
 
-基于java nio的网络通信应用程序框架,可以处理高性能非阻塞socked协议.
+### 基于java nio的网络通信应用程序框架,可以处理高性能非阻塞socked协议.
 
 ```markdown
 <dependency>
@@ -56,7 +56,7 @@ Apache Mina是一个能够帮助用户开发高性能和高伸缩性网络应用
 </dependency>
 ```
 
-提供对http服务器的访问功能
+### 提供对http服务器的访问功能
 
 ```markdown
 <dependency>
@@ -66,7 +66,7 @@ Apache Mina是一个能够帮助用户开发高性能和高伸缩性网络应用
 </dependency>
 ```
 
-阿里的dubbo的序列化协议
+### 阿里的dubbo的序列化协议
 
 ```markdown
 <dependency>
@@ -76,7 +76,7 @@ Apache Mina是一个能够帮助用户开发高性能和高伸缩性网络应用
 </dependency>
 ```
 
-json数据生成
+###json数据生成
 
 ```markdown
 <dependency>
@@ -86,7 +86,7 @@ json数据生成
 </dependency>
 ```
 
-xml与java 对象相互转换
+###xml与java 对象相互转换
 
 ```markdown
 <dependency>
@@ -96,7 +96,7 @@ xml与java 对象相互转换
 </dependency>
 ```
 
-Bean Scripting Framework  java整合脚本语言用
+###Bean Scripting Framework  java整合脚本语言用
 
 ```markdown
 <dependency>
@@ -106,7 +106,7 @@ Bean Scripting Framework  java整合脚本语言用
 </dependency>
 ```
 
-zookeeper相关
+###zookeeper相关
 
 ```markdown
 <dependency>
@@ -125,7 +125,7 @@ zookeeper相关
 </dependency>
 ```
 
-redis客户端
+###redis客户端
 
 ```markdown
 <dependency>
@@ -135,7 +135,7 @@ redis客户端
 </dependency>
 ```
 
-基于java nio实现的高性能可扩展的memcached客户端
+###基于java nio实现的高性能可扩展的memcached客户端
 
 ```markdown
 <dependency>
@@ -145,7 +145,7 @@ redis客户端
 </dependency>
 ```
 
-WebService开源框架cxf
+###WebService开源框架cxf
 
 ```markdown
 <dependency>
@@ -160,7 +160,7 @@ WebService开源框架cxf
 </dependency>
 ```
 
-thrift远程服务调用
+###thrift远程服务调用
 
 ```markdown
 <dependency>
@@ -170,7 +170,7 @@ thrift远程服务调用
 </dependency>
 ```
 
-JFreeChart图表绘制
+###JFreeChart图表绘制
 
 ```markdown
 <dependency>
@@ -180,7 +180,7 @@ JFreeChart图表绘制
 </dependency>
 ```
 
-hession序列化
+### hession序列化
 
 ```markdown
 <dependency>
@@ -190,7 +190,7 @@ hession序列化
 </dependency>
 ```
 
-jetty
+### jetty
 
 ```markdown
 <dependency>
@@ -205,7 +205,7 @@ jetty
 </dependency>
 ```
 
-hibernate验证工具,如果在验证不通过的时候进行了添加、更新或删除操作的时候，则会抛出javax.validation.ConstraintViolationException异常
+####hibernate验证工具,如果在验证不通过的时候进行了添加、更新或删除操作的时候，则会抛出javax.validation.ConstraintViolationException异常
 
 ```markdown
  <dependency>
@@ -218,8 +218,8 @@ hibernate验证工具,如果在验证不通过的时候进行了添加、更新�
    <artifactId>hibernate-validator</artifactId>
    <version>4.2.0.Final</version>
  </dependency>
-```markdown
-CacheManager缓存
+```
+### CacheManager缓存
 
 ```markdown
 <dependency>
@@ -229,7 +229,7 @@ CacheManager缓存
 </dependency>
 ```
 
-SCA-Service Component Architecture,服务组件架构
+### SCA-Service Component Architecture,服务组件架构
 
 ```markdown
 <dependency>
@@ -239,7 +239,7 @@ SCA-Service Component Architecture,服务组件架构
 </dependency>
 ```
 
-googled ioc框架
+### googled ioc框架
 
 ```markdown
 <dependency>
@@ -249,7 +249,7 @@ googled ioc框架
 </dependency>
 ```
 
-阿里WebX框架
+### 阿里WebX框架
 
 ```markdown
 <dependency>
@@ -259,7 +259,7 @@ googled ioc框架
 </dependency>
 ```
 
-jackson 对象转json数据
+### jackson 对象转json数据
 
 ```markdown
 <dependency>
@@ -273,7 +273,7 @@ jackson 对象转json数据
 </dependency>
 ```
 
-日志包
+### 日志包
 
 ```markdown
 <dependency>
@@ -300,8 +300,7 @@ jackson 对象转json数据
   <version>1.0.6</version>
 </dependency>
 ```
-
-测试包
+### 测试包
 
 ```markdown
  <dependency>
@@ -329,7 +328,7 @@ jackson 对象转json数据
    <scope>test</scope>
  </dependency>
 ```
-cglib代理
+### cglib代理
 ```markdown
  <dependency>
  <groupId>cglib</groupId>
@@ -337,7 +336,7 @@ cglib代理
    <version>2.2</version>
  </dependency>
 ```
-对象池
+### 对象池
 ```markdown
  <dependency>
    <groupId>commons-pool</groupId>
@@ -345,7 +344,7 @@ cglib代理
    <version>1.6</version>
  </dependency>
 ```
-内嵌tomcat
+### 内嵌tomcat
 ```markdown
  <dependency>
    <groupId>org.apache.tomcat.embed</groupId>
@@ -359,7 +358,7 @@ cglib代理
  </dependency>
 ```
 
-javax.ws.rs创建restful
+### javax.ws.rs创建restful
 
 ```markdown
  <dependency>
@@ -419,7 +418,7 @@ javax.ws.rs创建restful
  </dependency>
 ```
 
-文件上传
+### 文件上传
 
 ```markdown
  <dependency>
@@ -429,7 +428,7 @@ javax.ws.rs创建restful
  </dependency>
 ```
 
-lang包工具类
+### lang包工具类
 
 ```markdown
  <dependency>
@@ -439,7 +438,7 @@ lang包工具类
  </dependency>
 ```
 
-druid数据库连接
+### druid数据库连接
 
 ```markdown
  <dependency>
@@ -449,7 +448,7 @@ druid数据库连接
  </dependency>
 ```
 
-servlet
+### servlet
 
 ```markdown
  <dependency>
@@ -464,7 +463,7 @@ servlet
  </dependency>
 ```
 
-shiro
+### shiro
 
 ```markdown
  <dependency>

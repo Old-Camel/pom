@@ -1,6 +1,6 @@
 # \*-impl.pom文件为项目接口实现类依赖文件
 
-核心组件管理
+###核心组件管理
 
 ```markdown
 <dependency>
@@ -10,7 +10,7 @@
  <scope>provided</scope>
 </dependency>
 ```
-公用的javabean以及接口,例如Baseuser,Basemapper
+###公用的javabean以及接口,例如Baseuser,Basemapper
 ```markdown
 <dependency>
  <groupId>com.yunzainfo.pitcher</groupId>
@@ -19,7 +19,7 @@
  <scope>provided</scope>
 </dependency>
 ```
-测试
+##测试
 ```markdown
 <dependency>
  <groupId>junit</groupId>
@@ -29,7 +29,7 @@
 </dependency>
 
 ```
-mybatis
+###mybatis
 ```markdown
  <dependency>
    <groupId>org.mybatis</groupId>
@@ -56,7 +56,7 @@ mybatis
    </exclusions>
  </dependency>
 ```
-solr
+###solr
 
 ```markdown
 
@@ -68,7 +68,7 @@ solr
 </dependency>
 
 ```
-hadoop
+###hadoop
 ```markdown
 
 <dependency>
