@@ -1,7 +1,8 @@
 # \*-impl.web文件为项目控制层类依赖文件
 
-```markdown
 ###核心组件管理
+
+```markdown
 <dependency>
 
      <groupId>com.yunzainfo.pitcher</groupId>
