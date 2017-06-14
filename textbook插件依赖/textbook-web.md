@@ -1,0 +1,65 @@
+```markdown
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+ <parent>
+ <groupId>com.yunzainfo.pitcher.plugin</groupId>
+ <artifactId>textbook</artifactId>
+ <version>1.0-SNAPSHOT</version>
+ </parent>
+ <modelVersion>4.0.0</modelVersion>
+ <artifactId>textbook-web</artifactId>
+ <packaging>war</packaging>
+
+ <version>1.0-SNAPSHOT</version>
+
+ <dependencies>
+
+ <!--api依赖-->
+
+ <dependency>
+
+ <groupId>com.yunzainfo.pitcher.plugin</groupId>
+
+ <artifactId>textbook-api</artifactId>
+
+ <version>1.0-SNAPSHOT</version>
+
+ <scope>provided</scope>
+
+ </dependency>
+
+ </dependencies>
+
+ <build>
+
+ <finalName>textbook</finalName>
+
+ <plugins>
+
+ <plugin>
+
+ <groupId>org.apache.maven.plugins</groupId>
+
+ <artifactId>maven-compiler-plugin</artifactId>
+
+ <version>3.6.1</version>
+
+ <configuration>
+
+ <source>1.7</source>
+
+ <target>1.7</target>
+
+ </configuration>
+
+ </plugin>
+
+ </plugins>
+
+ </build>
+
+</project>
+
+```
