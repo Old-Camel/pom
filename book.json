@@ -1,6 +1,7 @@
 {
     "plugins": [
         "advanced-emoji",
-        
+        "tbfed-pagefooter",
+        "expandable-chapters-small"
     ]
 }
