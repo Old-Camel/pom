@@ -1,4 +1,6 @@
 ```markdown
+
 <?xml version="1.0" encoding="UTF-8"?><project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"> <parent> <groupId>com.yunzainfo.pitcher.plugin</groupId> <artifactId>textbook</artifactId> <version>1.0-SNAPSHOT</version> </parent> <modelVersion>4.0.0</modelVersion> <artifactId>textbook-api</artifactId> <packaging>jar</packaging> <version>1.0-SNAPSHOT</version> <dependencies> <!--核心插件包--> <dependency> <groupId>com.yunzainfo.pitcher</groupId> <artifactId>kernel-component-manager</artifactId> <version>1.0-SNAPSHOT</version> </dependency> <!--提供公用jar包,BaseUser,BaseMapper等--> <dependency> <groupId>com.yunzainfo.pitcher</groupId> <artifactId>portal-api</artifactId> <version>1.0-SNAPSHOT</version> </dependency> </dependencies> <build> <plugins> <plugin> <groupId>com.yunzainfo.pitcher.maven.plugin</groupId> <artifactId>pitcher-devp-maven-plugin</artifactId> <version>${pitcher.devp.plugin.version}</version> <configuration> <destination>${tomcat.shared}</destination> <copyType>FILE</copyType> </configuration> <executions> <execution> <id>plugin-deploy</id> <phase>package</phase> <goals> <goal>deploy</goal> </goals> </execution> </executions> </plugin> </plugins> </build></project>
+
 
 ```
