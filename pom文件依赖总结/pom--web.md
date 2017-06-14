@@ -8,7 +8,16 @@
      <artifactId>kernel-component-manager</artifactId>
      <version>1.0-SNAPSHOT</version>
      <scope>provided</scope>
-     <exclusions>         <exclusion>             <artifactId>log4j</artifactId>             <groupId>log4j</groupId>         </exclusion>         <exclusion>             <artifactId>slf4j-log4j12</artifactId>             <groupId>org.slf4j</groupId>         </exclusion>    </exclusions>
+     <exclusions>
+         <exclusion>
+             <artifactId>log4j</artifactId>
+             <groupId>log4j</groupId>
+         </exclusion>
+         <exclusion>
+             <artifactId>slf4j-log4j12</artifactId>
+             <groupId>org.slf4j</groupId>
+         </exclusion>
+    </exclusions>
 </dependency>
 
 ```
