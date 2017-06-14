@@ -1,6 +1,5 @@
 {
     "plugins": [
-        "tbfed-pagefooter",
         "-fontsettings"
     ]
 }
