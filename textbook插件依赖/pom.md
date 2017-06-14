@@ -1,4 +1,7 @@
+****
 ###textbook父工程依赖文件.定义了各依赖版本号属性,引入项目通用的jar包,打包类型为pom类型.
+****
+
 ```markdown
 <?xml version="1.0" encoding="UTF-8"?>
 

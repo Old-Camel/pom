@@ -1,7 +1,7 @@
+****
 # \*-impl.pom文件为项目接口实现类依赖文件
-
 ###核心组件管理
-
+****
 ```markdown
 <dependency>
  <groupId>com.yunzainfo.pitcher</groupId>
