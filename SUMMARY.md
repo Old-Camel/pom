@@ -11,7 +11,7 @@
     * [pom--&gt;impl](textbook插件依赖/textbook-impl.md)
     * [pom--&gt;web](textbook插件依赖/textbook-web.md)
 * [项目构建流程 ](项目构建流程/README.md)
-    * [pom--&gt;parent](项目构建流程/pom.md)
+    * [pom--&gt;parent](项目构建流程/README.md)
     * [pom--&gt;api](项目构建流程/流程总结.md)
     
    
