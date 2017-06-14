@@ -1,3 +1,5 @@
+###textbook-web的依赖文件
+####~~~~引入textbook-api依赖.打包方式为war包.
 ```markdown
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"

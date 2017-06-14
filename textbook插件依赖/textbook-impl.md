@@ -1,5 +1,5 @@
 ###textbook-impl的依赖文件
-####导入textbook-api+mybatis的依赖包
+####~~~~引入textbook-api+mybatis的依赖包.打包方式为war包.
 ```markdown
 <?xml version="1.0" encoding="UTF-8"?>
 
