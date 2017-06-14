@@ -1,3 +1,4 @@
+textbook-api的依赖文件,只引入核心插件包和portal-api包.
 ```markdown
 <?xml version="1.0" encoding="UTF-8"?><project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
  <parent>
@@ -20,7 +21,8 @@
      <groupId>com.yunzainfo.pitcher</groupId>
      <artifactId>portal-api</artifactId>
      <version>1.0-SNAPSHOT</version>
-     </dependency> </dependencies>
+ </dependency>
+</dependencies>
  <build>
      <plugins>
          <plugin>
