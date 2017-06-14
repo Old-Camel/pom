@@ -1,6 +1,6 @@
 # Summary
 
-* [maven  dependency arrange ](pom文件依赖总结/chapter1.md)
+* [maven  dependency arrange ](pom文件依赖总结/README.md)
     * [pom--&gt;parent](pom文件依赖总结/pom--parent.md)
     * [pom--&gt;api](pom文件依赖总结/pom--api.md)
     * [pom--&gt;impl](pom文件依赖总结/pom--impl.md)
